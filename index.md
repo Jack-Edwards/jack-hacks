@@ -1,4 +1,6 @@
 ---
-title: This is fine
+title: Home
+description: Landing page
 ---
 
+# This Is Fine
