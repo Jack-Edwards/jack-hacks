@@ -1,6 +1,6 @@
 theme: minima
 
-title: Jack's Blog
+title: Jack Jacks
 author: Jack Edwards
 email: jackedwards@protonmail.com
 #url: https://jackhacks.dev
@@ -12,7 +12,6 @@ description: My personal website and blog.
 
 twitter_username: jack_e_edwards
 github_username: jack-edwards
-linkedin_username: jack-edwards-96a212158
 
 rss: rss
 
