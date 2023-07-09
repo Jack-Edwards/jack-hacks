@@ -1,4 +1,38 @@
-title: Jack Hacks
-author: Jack Edwards
-description: My personal site
 theme: minima
+
+title: Jack's Blog
+author: Jack Edwards
+email: jackedwards@protonmail.com
+#url: https://jackhacks.dev
+
+timezone: Etc/UTC
+future: false
+
+description: My personal website and blog.
+
+twitter_username: jack_e_edwards
+github_username: jack-edwards
+linkedin_username: jack-edwards-96a212158
+
+rss: rss
+
+comments_repo: jack-edwards/jack-hacks
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
