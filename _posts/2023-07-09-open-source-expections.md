@@ -1,5 +1,5 @@
 ---
-title: How to approach your open-source contributors
+title: Approaching open-source contributions
 description: Understanding the two-way road that is accepting open-source contributions.
 date: 2023-07-09
 ---
