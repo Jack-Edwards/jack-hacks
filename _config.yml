@@ -10,13 +10,13 @@ future: false
 
 description: My personal website and blog.
 
-twitter_username: jack_e_edwards
-github_username: jack-edwards
-
 rss: rss
 
 minima:
   skin: auto
+  social_links:
+     - { platform: github,         user_url: "https://github.com/jack-edwards" }
+     - { platform: twitter,        user_url: "https://twitter.com/jack_e_edwards" }
 
 kramdown:
   syntax_highlighter_opts:
