@@ -1,8 +1,8 @@
 ---
+layout: post
 title: Approaching open-source contributions
 description: Understanding the two-way road that is accepting open-source contributions.
 date: 2023-07-09
-layout: post
 ---
 
 The way I approach open-source contributions changed a couple years ago.
