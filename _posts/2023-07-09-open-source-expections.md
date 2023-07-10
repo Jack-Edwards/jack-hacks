@@ -50,19 +50,19 @@ the original project. The project with a better developer experience is likely g
 I am now taking a much different approach when interacting with others who want to contribute to one of my projects.
 
 If I tag an issue as a "*good first issue*" in GitHub, I make sure to provide ample context and information on that
-issue, without getting into implementation details. People do not want to be bound by a pre-determined implementation.
-Nor is the pre-determined implementation always the best one. Implementation should be decided on the person doing
-the work in the moment, provided they have adequate context.
+issue, without getting into implementation details. People do not want to be bound by a pre-determined implementation,
+nor is the pre-determined implementation always the best one. Implementation should be decided on the person doing
+the work in the moment, provided they have adequate context to make good decisions.
 
 In addition to the standard issue details, I also include a statement on who this issue may be a good fit for. For
 example, "*this may be a good first issue for someone interested in ASP.NET development.*" Someone looking to
 contribute to a project can very quickly determine whether this is an issue they want to work on. This is not meant
 to act as a barrier or a requirement. I understand many people look at the "*good first issue*" tag as a way to
-learn something now. If someone is not comfortable with ASP.NET, but is eager to learn, then one of these issues may
+learn something new. If someone is not comfortable with ASP.NET, but is eager to learn, then one of these issues may
 actually be a perfect fit.
 
 Once someone does show interest in an issue, I do my best to make sure they have the information they need,
-without getting in their way. Nor do I provide them with unsolicited code.
+without getting in their way. I do not provide them with unsolicited code.
 
 Providing your own code defeats the purpose of adding the issue in the first place. The reason people add issues to
 their own projects is to seek help from the community. Not because the person is incapable, but because the person
