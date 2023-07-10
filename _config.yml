@@ -15,7 +15,8 @@ github_username: jack-edwards
 
 rss: rss
 
-comments_repo: jack-edwards/jack-hacks
+minima:
+  skin: auto
 
 kramdown:
   syntax_highlighter_opts:
