@@ -43,6 +43,10 @@ As much as we all want to deny it, our databases are often exposed in ways we do
 
 That being said, I strongly believe a responsible authentication provider should takes measures to *mitigate* the damage caused by a database breach. Not to protect the organization's interests (at least not directly), but to protect their users from the fallout.
 
+Those words sounds nice, but what am I talking about?
+
+Most server-side password hashing algorithms are designed for a specific use-case: the server. The algorithm needs to stress server in ways that will not exhaust the server's resources, preventing it from processing other requests at the same time. PBKDF2, the standard password hashing algorithm used in ASP.NET, is designed to stress the CPU. The memory and disk are left alone. This means an adversary with access to hashed passwords, hashed using PBKDF2, only need to design a system with the CPU in mind.
+
 ### Enter the client-side pre-hash
 
 
