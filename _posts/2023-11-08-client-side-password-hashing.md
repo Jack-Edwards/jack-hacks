@@ -73,7 +73,7 @@ The server-side password hash, in this case, is only designed to obfuscate and p
 
 While password hashing on both the client and server would be ideal, you should never perform any _less_ password hashing because you think the other system will make up the difference. Again, the pre-hash is intended to protect the user's secret plaintext password while the server hash is intended to protect against unauthorized entry to the system.
 
- ### Recommendations
+### Recommendations
 
  If you are interested in implementing a client-side pre-hash in your application, I recommend using Libsodium. Any other cross-platform cryptography library would work fine, but it really helps to have the same library available across platforms.
 
